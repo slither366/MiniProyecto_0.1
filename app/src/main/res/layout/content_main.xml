@@ -46,14 +46,14 @@
 
             <ImageView
                 android:src="@drawable/img_geomen_00"
-                android:onClick="verDet3"
+                android:onClick="verDet1"
                 android:layout_height="65dp"
                 android:layout_width="70dp" />
 
             <ImageView
                 android:layout_width="70dp"
                 android:src="@drawable/img_headshoulder_00"
-                android:onClick="verDet4"
+                android:onClick="verDet1"
                 android:layout_height="65dp" />
         </TableRow>
 
