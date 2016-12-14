@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.personal.syspromociones.Main"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSalida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECCIONE EL PRODUCTO\nDE SU PREFERENCIA"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:backgroundTint="@android:color/background_light">
+
+        <TableRow
+            android:id="@+id/row_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_geomen_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_headshoulder_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_etiqueta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/tview_1"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="S/.11.90"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tview_2"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="producto2"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_colgate_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_elvive_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_henopravia_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_ipana_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_johnson_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_loreal_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_palmolive_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_protex_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_rexona_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_royal_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_savital"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_sedal_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_bioderma_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_eucerin_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_igoravital_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_konzil_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_lipsmack_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_nivea_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_parera_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_pyns_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:src="@drawable/img_revlon_00"
+                android:onClick="verDet3"
+                android:layout_height="65dp"
+                android:layout_width="70dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:src="@drawable/img_varondandy_00"
+                android:onClick="verDet4"
+                android:layout_height="65dp" />
+        </TableRow>
+    </TableLayout>
+
+    </ScrollView>
+        <!--
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_volver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="volverini1"
+                        android:text="Inicio"
+                        android:elevation="0dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:text="Siguiente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnsiguiente1"
+                        android:layout_weight="1"
+                        android:onClick="siguiente1" />
+                </LinearLayout>
+            -->
+
+        </RelativeLayout>
